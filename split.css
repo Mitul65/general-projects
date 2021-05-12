@@ -1,0 +1,39 @@
+body
+{
+	background: url(black.jpg);
+	opacity: 80%; 
+	font-family: sans-serif;
+}
+.row
+{
+	width: 20%;
+	height: 130%;
+	position: absolute;
+	top: 0;
+	padding-top: 50px;
+	padding-left: 20px;
+	background: rgb(100,85.88,34.51);
+}
+.coloum
+{
+	left: 0;
+	background: rgb(100,85.88,34.51);
+}
+.coloum a
+{
+	text-decoration: none;
+	color: rgb(255,165,0);
+}
+.coloum a:hover
+{
+	display: inline-block;
+	background: white;
+}
+.coloum h1
+{
+	padding-bottom: 20px;
+}
+.coloum h1
+{
+	padding-top: 25px;
+}

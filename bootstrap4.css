@@ -1,0 +1,107 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+.fixed-top{
+    background-color: #ff4c68;
+    padding: 1% 10%;
+}
+
+.chat{
+    border-radius: 20px;
+    margin-top: 8rem;
+}
+
+.company{
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+}
+
+.title{
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    line-height: 2;
+}
+
+.description{
+    margin-top: 3rem;
+    line-height: 2;
+}
+
+.head{
+    padding: 3% 10%;
+    padding-bottom: 5%;
+}
+
+#features p{
+    color: gray;
+}
+
+#features{
+    padding: 7% 5%;
+}
+
+.box{
+    text-align: center;
+    padding: 5%;
+}
+
+h3{
+    font-family: 'Bree Serif', serif;
+    padding-bottom: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonial{
+    background-color: #ef8172;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.test{
+    text-align: center;
+}
+
+.clone{
+    width: 70%;
+    margin: 5% auto;
+    border-radius: 20px;
+}
+
+h1{
+    font-family: 'Bree Serif', serif;
+}
+
+#users{
+    text-align: center;
+    padding: 7%;
+}
+
+.download{
+    padding: 3% 2%;
+}
+
+.footer{
+    background-color: #ff4c68;
+    padding: 10px;
+}
+
+.footer p{
+    padding-left: 5%;
+    padding-top: 2%;
+    font-weight: bold;
+}

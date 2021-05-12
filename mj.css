@@ -1,0 +1,87 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.third
+{
+	padding-top: 30px;
+	padding-left: 30px;
+	font-family: copper black;
+	text-align: left;
+	padding-bottom: 5px;
+	color: white;
+}
+body
+{ 
+	background: url(black.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: constantia;
+}
+.menubar
+{
+	background: rgb(100,85.88,34.51);
+	text-align: center;
+}
+.menubar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menubar ul li
+{
+	width: 250px;
+	margin: 10px;
+	padding: 10px;
+}
+.menubar ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.active, .menubar ul li a:hover
+{
+	background: rgb(255,165,0);
+	border-radius: 3px;
+}
+.menubar .fa
+{
+	margin-right: 8px;
+}
+.submenu
+{
+	display: none;
+}
+.menubar ul li:hover .submenu
+{
+	display: block;
+	position: absolute;
+	background: rgb(100,85.88,34.51);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menubar ul li:hover .submenu ul
+{
+	display: block;
+	margin: 10px;
+}
+.menubar ul li:hover .submenu ul li
+{
+	width: 250px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: rgb(100,85.88,34.51);
+	border-radius: 0;
+	text-align: left;
+}
+.menubar ul li:hover .submenu ul li:last-child
+{
+	border-bottom: none;
+}
+.fa-angle-right
+{
+	float: right;
+}

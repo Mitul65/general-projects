@@ -1,0 +1,52 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.third
+{
+	color: white;
+	padding-top: 30px;
+	padding-left: 300px;
+	font-family: copper black;
+	text-align: left;
+	padding-bottom: 5px;
+}
+body
+{
+	background-size: cover;
+	background-position: center;
+	font-family: constantia;
+}
+.menubar
+{
+	background: rgb(100,85.88,34.51);
+	text-align: center;
+}
+.menubar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menubar ul li
+{
+	width: 150px;
+	margin: 10px;
+	padding: 10px;
+}
+.menubar ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.active, .menubar ul li a:hover
+{
+	background: rgb(255,165,0);
+	border-radius: 3px;
+}
+.menubar .fa
+{
+	margin-right: 8px;
+}

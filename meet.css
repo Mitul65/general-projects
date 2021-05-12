@@ -1,0 +1,169 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+#meet{
+	padding-top: 25px;
+	padding-bottom: 10px;
+	margin-left: 4%;
+}
+
+.dash{
+	text-align: right;
+	background-color: cyan;
+	height: 75px;
+}
+
+.dash ul li{
+	list-style: none;
+	display: inline-flex;
+	padding-top: 27px;
+	padding-right: 50px;
+	font-size: 25px;
+}
+
+.dash ul li a{
+	text-decoration: none;
+	color: black;
+}
+/*
+	color: blue;
+	text-decoration: underline;*/
+
+.dash ul li a:hover{
+	text-decoration:none;
+	display: inline-block;
+	color:blue;
+}
+
+.dash ul li a:after{
+	content: '';
+	display: block;
+	height: 3px;
+	width: 0;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+	-webkit-transition: width .5s ease, background-color .5s ease;
+	-moz-transition: width .5s ease, background-color .5s ease;
+	 
+	margin:auto;
+}
+ 
+.dash ul li a:hover:after{
+	width: 100%;
+	background: blue;
+}
+
+/*.image{
+	text-align: right;
+	padding-left: 170%;
+}*/
+
+.first{
+	padding-right: 60%;
+}
+
+.first h2{
+	padding-top: 20%;
+	padding-bottom: 20px;	
+	padding-left: 10%;
+}
+
+.first p{
+	padding-left: 10%;
+}
+
+.first button{
+	margin-left: 10%;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	height: 40px;
+	width: 140px;
+	font-size: 15px;
+	border-radius: 5px;
+	background-color: cyan;
+}
+
+.first button:hover{
+	background-color: rgb(0, 191, 255);
+}
+
+.first button a{
+	text-decoration: none;
+	color: black;
+}
+
+.first hr{
+	margin-bottom: 15%;
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 7%;
+}
+
+#fit{
+	text-align: center;
+	background-color: cyan;
+	margin-bottom: 5%;
+	height: 75px;
+	padding-top: 20px;
+	font-size: 30px;
+}
+
+.second h1{
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 35px;
+}
+
+.second p{
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 10px;
+	font-size: 25px;
+	color: gray;
+}
+
+.second p:last-child{
+	padding-bottom: 40px;
+}
+
+.three{
+	background-color: cyan;
+	padding-left: 65px
+	/*text-align: center;*/
+}
+
+.three img{
+	margin-top: 25px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+
+.three button{
+	margin-top: 15px;
+	margin-bottom: 25px;
+	height: 40px;
+	width: 100px;
+	font-size: 15px;
+	border-radius: 5px;
+	background-color: gray;
+}
+
+.three button:hover{
+	background-color: rgb(0, 191, 255);
+}
+
+.three button a{
+	text-decoration: none;
+	color: black;
+}
+
+.three h2{
+	padding-bottom: 20px;
+}
+
+.final{
+	margin: 25px;
+}
